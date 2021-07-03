@@ -26,12 +26,19 @@ body {
   nav {
     background-color: #000;
     padding: .5em;
+    position: sticky;
+    top: 0;/*150px;  3.75em */
+   
   }
   
   nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    /* own code */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   
   nav a {
