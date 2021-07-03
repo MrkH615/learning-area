@@ -26,8 +26,9 @@ body {
   nav {
     background-color: #000;
     padding: .5em;
+    /* own code */
     position: sticky;
-    top: 0;/*150px;  3.75em */
+    top: 0;
    
   }
   
@@ -55,4 +56,9 @@ body {
 
   .feature {
       width: 200px;
+  }
+
+  img.feature {
+    float:left;
+    margin-right: 1em;
   }
