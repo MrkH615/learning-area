@@ -29,6 +29,24 @@
     let bandInfo;
 
     // Add your code here
+    let band = {
+      name: 'The Beatles',
+      nationality: 'British',
+      genre: 'rock',
+      memebers: 4,
+      formed: 1962,
+      split: 1970,
+      albums: [
+        {name: 'A Hard Day\'s Night', released: 1962,}, 
+        {name: 'Help!', released: 1965,},
+        {name: 'Revolver', released: 1966,},
+        {name: 'Let It Be', released: 1970,}
+      ],
+    }
+
+    bandInfo = `${band.name} were a ${band.nationality} ${band.genre} band. 
+    They were active for ${band.split - band.formed} years. 
+    Their first album, ${band.albums[0].name}, was released in ${band.albums[0].released}. `;
 
 
     // Don't edit the code below here!
